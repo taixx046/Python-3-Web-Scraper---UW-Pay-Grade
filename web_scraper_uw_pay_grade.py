@@ -74,3 +74,5 @@ with open('uw_paygrade.csv', 'w', encoding='utf-8', newline='\n') as pg:
             temp = []
         else:
             temp.append(x)
+
+pg.close()
